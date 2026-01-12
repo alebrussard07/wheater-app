@@ -18,11 +18,11 @@ export const getWeatherData = async (lat, lon) => {
 };
 
 // 3. Ottiene info geografiche (GeoDB)
-// Nota: GeoDB su RapidAPI richiede spesso una Key. Se non l'hai, 
-// per ora simuliamo o usiamo i dati di Nominatim per la demo.
+// Nota: GeoDB su RapidAPI richiede spesso una Key.
+// Per semplicità, questa funzione è un placeholder.
 export const getCityDetails = async (lat, lon) => {
     // Esempio semplificato: moltiplicando i dati per mostrare info extra
-    // In un caso reale qui useresti fetch con le API Key nei headers
+    // In un caso reale qui si userebbe un'API come GeoDB Cities con una API Key.
     return {
         population: "Dati non disponibili (API Key richiesta)",
         elevation: "Variabile",
