@@ -109,13 +109,6 @@ This repository is intended for educational use. If you want a permissive licens
 
 ---
 
-If you want, I can also:
-- Commit the new `README.md` for you,
-- Run the dev server and show logs,
-- Add a small LICENSE file (e.g., MIT),
-- Or translate the README fully into Italian.
-
-Which of those would you like next?
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
